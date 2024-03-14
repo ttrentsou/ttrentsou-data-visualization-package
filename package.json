@@ -1,6 +1,6 @@
 {
   "name": "ttrentsou-data-visualization-package",
-  "version": "1.0.0", 
+  "version": "1.0.1",
   "description": "Develop a package that provides easy-to-use data visualization components for Node.js applications. This could include charts, graphs, and other visualizations using libraries like D3.js or Chart.js.",
   "main": "./src/index.js",
   "scripts": {
@@ -11,10 +11,13 @@
     "url": "https://github.com/ttrentsou/ttrentsou-data-visualization-package.git"
   },
   "keywords": [
-    "", 
+    "",
     "",
     ""
   ],
   "author": "ttrentsou",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "ttrentsou-errorlogger": "^1.0.2"
+  }
 }
